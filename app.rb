@@ -55,5 +55,5 @@ file_contents = File.read("guests.json")
 data = JSON.parse(file_contents)
 
 data["guests"].each do |guest|
-  puts guest
+  puts "#{guest["firstName"]} #{guest["secondName"]} was born in #{guest["birthYear"]}"
 end
