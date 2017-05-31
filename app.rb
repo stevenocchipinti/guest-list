@@ -47,6 +47,12 @@
 #     - ...
 #
 #
+# Extension exercises:
+#
+#   1. Change the program to use a CSV file (guests.csv) instead of the JSON
+#   file (guests.json)
+#
+#
 ################################################################################
 
 require 'json'
